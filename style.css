@@ -70,8 +70,8 @@ body {margin:0;}
 }
 
 .main {
-  padding: 16px;
+  padding: 300px;
   margin-bottom: 30px;
   height: 1500px; /* Used in this example to enable scrolling */
-  /*width: 100px;*/
+  width: 600px;
 }
