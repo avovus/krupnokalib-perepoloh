@@ -1,4 +1,42 @@
 @media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} }	
+.dropbtn {
+    background-color: #036666;
+    color: white;
+    padding: 35px;
+    font-size: 43px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #005440;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #005440;
+    min-width: 300px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 30px 30px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #004535;}
+
+.show {display: block;}
 
 	body {
 		background: #2c3429 url(fon_index.png);
