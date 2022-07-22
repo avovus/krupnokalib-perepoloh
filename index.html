@@ -11,47 +11,12 @@
 
 <body bgcolor="#666633">
 	
-<div class="dropdown">
-<button onclick="myFunction()" class="dropbtn">меню</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="catalog.html">каталог</a>
-    <a href="contact.html">контакты</a>
-    <a href="how.html">как купить товар?</a>
-    <a href="faq.html">ЧАВО</a>
-    <a href="vk">группа в ВК</a>
-    <a href="news.html">новости</a>
-    <a href="sell.html">продать</a>
-  </div>
-</div>
-
 <div class="navbar">
   <a href="index.html">главная</a>
   <a href="catalog.html">каталог</a>
   <a href="how.html">как купить товар?</a>
   <a href="news.html">новости</a>  
 </div>
-
-
-<script>
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
 <br> 
 	
 	<div class="main">
@@ -85,11 +50,12 @@ window.onclick = function(event) {
 	<div class="main">
 <hr width="620">
 <p>
-	<a href="how.html"><font color="white"> <p align="center">как купить товар? </p></font> </a>
 	<a href="contact.html"><font color="white"> <p align="center">свяжитесь с нами </p></font> </a>  
 	<a href="VK.html"><font color="white"><p align="center">группа в ВК </p></font></a>  
-	<a href="catalog.html"><font color="white"> <p align="center">каталог </p> </font></a>
 	<a href="sell.html"><font color="white"> <p align="center">продать </p> </font></a>
+	<a href="contact.html"><font color="white"><p align="center">контакты </p></font></a>
+	<a href="faq.html"><font color="white"><p align="center">ЧАВО</p></font></a>
+
 
 </p>
 	</div>
